@@ -19,16 +19,36 @@ public class EpicSquad : ModuleRules
 			"StateTreeModule",
 			"GameplayStateTreeModule",
 			"Niagara",
-			"UMG"
+			"UMG",
+			"GameplayMessageRuntime",
+			"NinjaGAS",
+			"NinjaInput",
+			// Ninja Combat
+			"CommonUI",
+			"GameplayAbilities",
+			"GameplayTags",
+			"GameplayTasks",
+			"ModelViewViewModel",
+			"NinjaCombat",
+			"NinjaCombatCamera",
+			"NinjaCombatCore",
+			"NinjaCombatActorPool",
+			"NinjaCombatUI",
+			"NinjaCombatInventory",
+			"StructUtils",
+			"NinjaCombatFactions",
+			// Ninja Inventory
+			"NinjaInventory",
+			"NinjaInventoryCore",
+			"NinjaInventoryEquipment",
+			"CommonInput",
+			"NinjaFactions",
 		});
 
 		PrivateDependencyModuleNames.AddRange(new string[] { });
 
 		PublicIncludePaths.AddRange(new string[] {
 			"EpicSquad",
-			"EpicSquad/Variant_Strategy",
-			"EpicSquad/Variant_TwinStick",
-			"EpicSquad/Variant_TwinStick/AI"
 		});
 
 		// Uncomment if you are using Slate UI
