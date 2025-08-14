@@ -73,3 +73,5 @@ Plugins/**/Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/*
 /Plugins/NinjaBearStudio
+/Content/Assassin
+/Content/SKnight_modular

@@ -55,42 +55,6 @@
 			"MarketplaceURL": "com.epicgames.launcher://ue/Fab/product/bda9ddb0-0067-493f-9923-052a2fe1db5d"
 		},
 		{
-			"Name": "MetaHuman",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Win64",
-				"Linux"
-			]
-		},
-		{
-			"Name": "MetaHumanCalibrationProcessing",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Win64",
-				"Linux"
-			]
-		},
-		{
-			"Name": "MetaHumanCoreTech",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Win64",
-				"Linux"
-			]
-		},
-		{
-			"Name": "MetaHumanCharacter",
-			"Enabled": true
-		},
-		{
-			"Name": "MetaHumanLiveLink",
-			"Enabled": true
-		},
-		{
-			"Name": "MetaHumanRuntime",
-			"Enabled": true
-		},
-		{
 			"Name": "GameplayAbilities",
 			"Enabled": true
 		},
@@ -133,6 +97,14 @@
 		{
 			"Name": "StructUtils",
 			"Enabled": true
+		},
+		{
+			"Name": "Bridge",
+			"Enabled": false
+		},
+		{
+			"Name": "MetaHumanSDK",
+			"Enabled": false
 		}
 	]
 }
